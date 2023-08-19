@@ -12,14 +12,14 @@ def about(request):
         "about": about
     })
 
-def blog_home(request):
-    return render(request, "blog-home.html", {
-        "blog_home": blog_home
+def blog(request):
+    return render(request, "blog.html", {
+        "blog": blog
     })
 
-def blog_post(request):
-    return render(request, "blog-post.html", {
-        "blog_post": blog_post
+def post(request):
+    return render(request, "post.html", {
+        "blog_post": post
     })
 
 def contact(request):
@@ -32,14 +32,14 @@ def pricing(request):
         "pricing": pricing
     })
 
-def portfolio_overview(request):
-    return render(request, "portfolio-overview.html", {
-        "portfolio_overview": portfolio_overview
+def overview(request):
+    return render(request, "overview.html", {
+        "overview": overview
     })
 
-def portfolio_item(request):
-    return render(request, "portfolio-item.html", {
-        "portfolio_item": portfolio_item
+def item(request):
+    return render(request, "item.html", {
+        "item": item
     })
 
 def faq(request):
